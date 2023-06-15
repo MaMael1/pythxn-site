@@ -17,6 +17,7 @@
 
 
 body {
+    background-color: black;
     background-image:url(/img/Banner\ novo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,5 +157,14 @@ strong {
 
     .apresentacao__conteudo{
         width: auto;
+    }
+
+    body{
+        background-image:url(/img/Banner\ novo.jpg);
+        background-size: auto;
+    }
+
+    .apresentacao__links__link{
+        padding: 5%;
     }
 }
